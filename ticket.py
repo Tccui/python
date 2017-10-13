@@ -43,7 +43,7 @@ for i in range(-4, -1):
     ToStation += stationlist[placeb + i]
 '''
 # 查询地点代码，从数据库中查，输入简写，中文，拼音都可以
-db = MySQLdb.connect("120.77.144.110", "root", "Mysql123456", "test")
+db = MySQLdb.connect("120.77.144.110", "root", "123456", "test")
 cursor = db.cursor()
 # 设置编码
 cursor.execute("set names utf8")
