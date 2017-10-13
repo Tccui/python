@@ -48,7 +48,7 @@ class getImg:
             print('获取网页数据异常')
     def add_data(self, sql):
         try:
-            db = MySQLdb.connect('120.77.144.110', 'root', 'Mysql123456', 'qiushibaike')
+            db = MySQLdb.connect('120.77.144.110', 'root', '123456', 'qiushibaike')
             cursor = db.cursor()
             cursor.execute("set names utf8")
             cursor.execute(sql)
