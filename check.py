@@ -18,7 +18,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 # 禁用安全警告
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 # 连接数据库
-db = MySQLdb.connect("120.77.144.110", "root", "Mysql123456", "test")
+db = MySQLdb.connect("120.77.144.110", "root", "123456", "test")
 cursor = db.cursor()
 cursor.execute("set names utf8")
 # 城市js文件
