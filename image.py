@@ -1,4 +1,4 @@
-#! /usr/bin/ env python
+#! /usr/bin/env python
 # _*_ coding:utf-8 _*_
 # 多线程爬取糗事百科成人网图片
 
