@@ -75,7 +75,7 @@ argument.add_argument('--week', '-w', action='store_true')
 args = argument.parse_args()
 city = args.city
 week = args.week
-db = MySQLdb.connect('120.77.144.110', 'root', 'Mysql123456', 'weather')
+db = MySQLdb.connect('120.77.144.110', 'root', '123456', 'weather')
 cursor = db.cursor()
 cursor.execute("set names utf8")
 sql = " select code from area where spell = '%s' or title = '%s'" % (city, city)
